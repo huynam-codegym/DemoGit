@@ -5,7 +5,12 @@ public class Customer {
     private String name;
     private String email;
     private String address;
-    private String phone;
+
+
+
+    private int numberPhone;
+    private String country;
+
 
     public Customer() {
     }
