@@ -18,6 +18,7 @@
         <td>name</td>
         <td>email</td>
         <td>address</td>
+        <td>Chi tiet </td>
     </tr>
     <c:forEach items="${customers}" var="c">
 
@@ -25,6 +26,9 @@
             <td> ${c.name}</td>
             <td> ${c.email}</td>
             <td> ${c.address}</td>
+            <td> <a href="/customers?page=detail&id=${c.id}"> Chi tiet</a></td>
+
+
 
         </tr>
 

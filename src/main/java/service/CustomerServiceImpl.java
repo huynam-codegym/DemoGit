@@ -37,4 +37,8 @@ public class CustomerServiceImpl {
     public void remove(int id) {
         customers.remove(id);
     }
+
+    public void save(Customer customer) {
+        customers.put(customer.getId(), customer);
+}
 }
